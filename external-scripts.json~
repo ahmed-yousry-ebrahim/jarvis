@@ -8,6 +8,7 @@
   "hubot-maps",
   "hubot-rules",
   "hubot-shipit",
+  "hubot-suggest",
   "hubot-remind-at",
   "hubot-eliza"
 ]
