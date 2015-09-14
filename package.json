@@ -6,6 +6,8 @@
   "description": "A humble yet intelligant servant bot for intellisc",
   "dependencies": {
     "hubot": "^2.16.0",
+    "hubot-scripts": "1.1.0",
+    "optparse": "1.0.1",
     "hubot-diagnostics": "0.0.1",
     "hubot-eliza": "^1.0.0",
     "hubot-google-images": "^0.2.1",
