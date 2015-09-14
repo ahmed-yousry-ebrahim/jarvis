@@ -23,7 +23,7 @@
     "hubot-scripts": "^2.16.2",
     "hubot-shipit": "^0.2.0",
     "hubot-trello": "^0.1.1",
-    "underscore"
+    "underscore": "*"
   },
   "engines": {
     "node": "0.10.x"
