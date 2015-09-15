@@ -16,7 +16,6 @@
     "hubot-hipchat": "^2.12.0",
     "hubot-maps": "0.0.2",
     "hubot-pugme": "^0.1.0",
-    "hubot-redis-brain": "0.0.3",
     "hubot-remind-at": "0.0.4",
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.2",
