@@ -19,9 +19,10 @@ behave as expected unless the [environment variables](#configuration) they rely
 upon have been set.
 
 Just install nodejs and npm
+
 install postgresql and run the following script
-	sudo -u postgres psql
-	CREATE TABLE hubot (
+    sudo -u postgres psql
+     CREATE TABLE hubot (
      id CHARACTER VARYING(1024) NOT NULL,
      storage TEXT,
     CONSTRAINT hubot_pkey PRIMARY KEY (id)
