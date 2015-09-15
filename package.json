@@ -7,7 +7,6 @@
   "dependencies": {
     "hubot": "^2.16.0",
     "hubot-diagnostics": "0.0.1",
-    "hubot-ector": "^1.2.1",
     "hubot-eliza": "^1.0.0",
     "hubot-google-images": "^0.2.1",
     "hubot-google-translate": "^0.2.0",
@@ -21,7 +20,6 @@
     "hubot-scripts": "^2.16.2",
     "hubot-shipit": "^0.2.0",
     "hubot-trello": "^0.1.1",
-    "optparse": "1.0.1",
     "underscore": "*",
     "pg": "~0.10.2"
   },
