@@ -21,6 +21,7 @@ upon have been set.
 Just install nodejs and npm
 
 install postgresql and run the following script
+
     sudo -u postgres psql
      CREATE TABLE hubot (
      id CHARACTER VARYING(1024) NOT NULL,
