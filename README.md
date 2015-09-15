@@ -18,9 +18,19 @@ You can test your hubot by running the following, however some plugins will not
 behave as expected unless the [environment variables](#configuration) they rely
 upon have been set.
 
+Just install nodejs and npm
+install postgresql and run the following script
+	sudo -u postgres psql
+	CREATE TABLE hubot (
+     id CHARACTER VARYING(1024) NOT NULL,
+     storage TEXT,
+    CONSTRAINT hubot_pkey PRIMARY KEY (id)
+   	);
+   INSERT INTO hubot VALUES(1, NULL);
+
 You can start jarvis locally by running:
 
-    % bin/hubot
+    % DATABASE_URL=postgres://postgres_user_name:postgres_password@localhost:5432/postgres bin/hubot
 
 You'll see some start up output and a prompt:
 
