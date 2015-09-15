@@ -28,7 +28,7 @@ install postgresql and run the following script
      storage TEXT,
     CONSTRAINT hubot_pkey PRIMARY KEY (id)
    	);
-   INSERT INTO hubot VALUES(1, NULL);
+    INSERT INTO hubot VALUES(1, NULL);
 
 You can start jarvis locally by running:
 
