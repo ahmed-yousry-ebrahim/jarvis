@@ -8,6 +8,7 @@
     "hubot": "^2.16.0",
     "hubot-diagnostics": "0.0.1",
     "hubot-eliza": "^1.0.0",
+    "hubot-factoids": "^0.2.7",
     "hubot-google-images": "^0.2.1",
     "hubot-google-translate": "^0.2.0",
     "hubot-help": "^0.1.1",
@@ -19,8 +20,8 @@
     "hubot-rules": "^0.1.1",
     "hubot-scripts": "^2.16.2",
     "hubot-shipit": "^0.2.0",
-    "underscore": "*",
-    "pg": "~0.10.2"
+    "pg": "~0.10.2",
+    "underscore": "*"
   },
   "engines": {
     "node": "0.10.x"
