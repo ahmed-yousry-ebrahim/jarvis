@@ -10,5 +10,6 @@
   "hubot-shipit",
   "hubot-remind-at",
   "hubot-eliza",
-  "hubot-factoids"
+  "hubot-factoids",
+  "hubot-trello"
 ]
