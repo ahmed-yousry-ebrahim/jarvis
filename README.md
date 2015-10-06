@@ -30,9 +30,17 @@ install postgresql and run the following script
    	);
     INSERT INTO hubot VALUES(1, NULL);
 
+Set Trello keys with the following code
+
+    export HUBOT_TRELLO_KEY=1500dd07f8f78eb37bc44252d148585e
+    export HUBOT_TRELLO_TOKEN=4271a040289dfa8b21725281772770b32a88b9f81f7c41a0c1f4d80b0ae15907
+    export HUBOT_TRELLO_LIST=55f000c176c7dbcd7be7864e
+    export HUBOT_TRELLO_BOARD=6hmXhhF8
+
 You can start jarvis locally by running:
 
-    % DATABASE_URL=postgres://postgres_user_name:postgres_password@localhost:5432/postgres bin/hubot
+
+    % DATABASE_URL=postgres://postgres:postgres@localhost:5432/postgres bin/hubot
 
 You'll see some start up output and a prompt:
 
